@@ -6606,7 +6606,7 @@ class TestSomeOf(unittest.TestCase):
         assert got_exception
 
     def test_with_children_that_change_shapes_keep_size_false(self):
-        # test for https://github.com/aleju/imgaug/issues/143
+        # test for https://github.com/marcown/imgaug/issues/143
         # (shapes change in child augmenters, leading to problems if input
         # arrays are assumed to stay input arrays)
         image = np.zeros((8, 8, 3), dtype=np.uint8)
@@ -7720,7 +7720,7 @@ class TestSometimes(unittest.TestCase):
         assert observed_repr == expected
 
     def test_shapes_changed_by_children__no_keep_size_non_stochastic(self):
-        # Test for https://github.com/aleju/imgaug/issues/143
+        # Test for https://github.com/marcown/imgaug/issues/143
         # (shapes change in child augmenters, leading to problems if input
         # arrays are assumed to stay input arrays)
         def _assert_all_valid_shapes(images):

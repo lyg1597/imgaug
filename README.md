@@ -3,9 +3,9 @@
 This python library helps you with augmenting images for your machine learning projects.
 It converts a set of input images into a new, much larger set of slightly altered images.
 
-[![Build Status](https://travis-ci.org/aleju/imgaug.svg?branch=master)](https://travis-ci.org/aleju/imgaug)
-[![codecov](https://codecov.io/gh/aleju/imgaug/branch/master/graph/badge.svg)](https://codecov.io/gh/aleju/imgaug)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1370ce38e99e40af842d47a8dd721444)](https://www.codacy.com/app/aleju/imgaug?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aleju/imgaug&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/marcown/imgaug.svg?branch=master)](https://travis-ci.org/marcown/imgaug)
+[![codecov](https://codecov.io/gh/marcown/imgaug/branch/master/graph/badge.svg)](https://codecov.io/gh/marcown/imgaug)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1370ce38e99e40af842d47a8dd721444)](https://www.codacy.com/app/marcown/imgaug?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marcown/imgaug&amp;utm_campaign=Badge_Grade)
 
 <table>
 
@@ -21,51 +21,51 @@ It converts a set of input images into a new, much larger set of slightly altere
 <!-- Line 1: Original Input -->
 <tr>
 <td><em>Original Input</em></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/noop_image.jpg?raw=true" height="83" width="124" alt="input images"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/noop_heatmap.jpg?raw=true" height="83" width="124" alt="input heatmaps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/noop_segmap.jpg?raw=true" height="83" width="124" alt="input segmentation maps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/noop_kps.jpg?raw=true" height="83" width="124" alt="input keypoints"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/noop_bbs.jpg?raw=true" height="83" width="124" alt="input bounding boxes"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/noop_image.jpg?raw=true" height="83" width="124" alt="input images"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/noop_heatmap.jpg?raw=true" height="83" width="124" alt="input heatmaps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/noop_segmap.jpg?raw=true" height="83" width="124" alt="input segmentation maps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/noop_kps.jpg?raw=true" height="83" width="124" alt="input keypoints"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/noop_bbs.jpg?raw=true" height="83" width="124" alt="input bounding boxes"></td>
 </tr>
 
 <!-- Line 2: Gauss. Noise + Contrast + Sharpen -->
 <tr>
 <td>Gauss. Noise<br>+&nbsp;Contrast<br>+&nbsp;Sharpen</td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/non_geometric_image.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to images"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/non_geometric_heatmap.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to heatmaps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/non_geometric_segmap.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to segmentation maps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/non_geometric_kps.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to keypoints"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/non_geometric_bbs.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to bounding boxes"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/non_geometric_image.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to images"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/non_geometric_heatmap.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to heatmaps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/non_geometric_segmap.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to segmentation maps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/non_geometric_kps.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to keypoints"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/non_geometric_bbs.jpg?raw=true" height="83" width="124" alt="non geometric augmentations, applied to bounding boxes"></td>
 </tr>
 
 <!-- Line 3: Affine -->
 <tr>
 <td>Affine</td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/affine_image.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to images"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/affine_heatmap.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to heatmaps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/affine_segmap.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to segmentation maps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/affine_kps.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to keypoints"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/affine_bbs.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to bounding boxes"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/affine_image.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to images"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/affine_heatmap.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to heatmaps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/affine_segmap.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to segmentation maps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/affine_kps.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to keypoints"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/affine_bbs.jpg?raw=true" height="83" width="124" alt="affine augmentations, applied to bounding boxes"></td>
 </tr>
 
 <!-- Line 4: Crop + Pad -->
 <tr>
 <td>Crop<br>+&nbsp;Pad</td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/cropandpad_image.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to images"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/cropandpad_heatmap.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to heatmaps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/cropandpad_segmap.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to segmentation maps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/cropandpad_kps.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to keypoints"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/cropandpad_bbs.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to bounding boxes"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/cropandpad_image.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to images"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/cropandpad_heatmap.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to heatmaps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/cropandpad_segmap.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to segmentation maps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/cropandpad_kps.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to keypoints"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/cropandpad_bbs.jpg?raw=true" height="83" width="124" alt="crop and pad augmentations, applied to bounding boxes"></td>
 </tr>
 
 <!-- Line 5: Fliplr + Perspective -->
 <tr>
 <td>Fliplr<br>+&nbsp;Perspective</td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_image.jpg" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to images"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_heatmap.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to heatmaps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_segmap.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to segmentation maps"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_kps.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to keypoints"></td>
-<td><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_bbs.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to bounding boxes"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_image.jpg" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to images"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_heatmap.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to heatmaps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_segmap.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to segmentation maps"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_kps.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to keypoints"></td>
+<td><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/small_overview/fliplr_perspective_bbs.jpg?raw=true" height="83" width="124" alt="Horizontal flip and perspective transform augmentations, applied to bounding boxes"></td>
 </tr>
 
 </table>
@@ -73,7 +73,7 @@ It converts a set of input images into a new, much larger set of slightly altere
 
 **More (strong) example augmentations of one input image:**
 
-![64 quokkas](https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/examples_grid.jpg?raw=true "64 quokkas")
+![64 quokkas](https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/examples_grid.jpg?raw=true "64 quokkas")
 
 
 ## Table of Contents
@@ -142,7 +142,7 @@ pip install imgaug
 
 or install the latest version directly from github:
 ```bash
-pip install git+https://github.com/aleju/imgaug.git
+pip install git+https://github.com/marcown/imgaug.git
 ```
 
 For more details, see the [install guide](https://imgaug.readthedocs.io/en/latest/source/installation.html)
@@ -155,16 +155,16 @@ To deinstall the library, just execute `pip uninstall imgaug`.
 ## Documentation
 
 Example jupyter notebooks:
-  * [Load and Augment an Image](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A01%20-%20Load%20and%20Augment%20an%20Image.ipynb)
-  * [Multicore Augmentation](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A03%20-%20Multicore%20Augmentation.ipynb)
-  * Augment and work with: [Keypoints/Landmarks](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B01%20-%20Augment%20Keypoints.ipynb),
-    [Bounding Boxes](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B02%20-%20Augment%20Bounding%20Boxes.ipynb),
-    [Polygons](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B03%20-%20Augment%20Polygons.ipynb),
-    [Line Strings](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B06%20-%20Augment%20Line%20Strings.ipynb),
-    [Heatmaps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B04%20-%20Augment%20Heatmaps.ipynb),
-    [Segmentation Maps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B05%20-%20Augment%20Segmentation%20Maps.ipynb) 
+  * [Load and Augment an Image](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/A01%20-%20Load%20and%20Augment%20an%20Image.ipynb)
+  * [Multicore Augmentation](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/A03%20-%20Multicore%20Augmentation.ipynb)
+  * Augment and work with: [Keypoints/Landmarks](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B01%20-%20Augment%20Keypoints.ipynb),
+    [Bounding Boxes](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B02%20-%20Augment%20Bounding%20Boxes.ipynb),
+    [Polygons](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B03%20-%20Augment%20Polygons.ipynb),
+    [Line Strings](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B06%20-%20Augment%20Line%20Strings.ipynb),
+    [Heatmaps](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B04%20-%20Augment%20Heatmaps.ipynb),
+    [Segmentation Maps](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/B05%20-%20Augment%20Segmentation%20Maps.ipynb) 
 
-More notebooks: [imgaug-doc/notebooks](https://github.com/aleju/imgaug-doc/tree/master/notebooks).
+More notebooks: [imgaug-doc/notebooks](https://github.com/marcown/imgaug-doc/tree/master/notebooks).
 
 Example ReadTheDocs pages:
 * [Quick example code on how to use the library](http://imgaug.readthedocs.io/en/latest/source/examples_basics.html)
@@ -174,7 +174,7 @@ Example ReadTheDocs pages:
 More RTD documentation: [imgaug.readthedocs.io](http://imgaug.readthedocs.io/en/latest/source/examples_basics.html).
 
 All documentation related files of this project are hosted in the
-repository [imgaug-doc](https://github.com/aleju/imgaug-doc).
+repository [imgaug-doc](https://github.com/marcown/imgaug-doc).
 
 
 <a name="recent_changes"/>
@@ -214,8 +214,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/meta/identity.gif" height="148" width="100" alt="Identity"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/meta/channelshuffle.gif" height="148" width="100" alt="ChannelShuffle"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/meta/identity.gif" height="148" width="100" alt="Identity"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/meta/channelshuffle.gif" height="148" width="100" alt="ChannelShuffle"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -235,11 +235,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/arithmetic.html#multiply">Multiply</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/add.gif" height="148" width="100" alt="Add"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/add_per_channel_true.gif" height="148" width="100" alt="Add per_channel=True"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/additivegaussiannoise.gif" height="148" width="100" alt="AdditiveGaussianNoise"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/additivegaussiannoise_per_channel_true.gif" height="148" width="100" alt="AdditiveGaussianNoise per_channel=True"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/multiply.gif" height="148" width="100" alt="Multiply"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/add.gif" height="148" width="100" alt="Add"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/add_per_channel_true.gif" height="148" width="100" alt="Add per_channel=True"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/additivegaussiannoise.gif" height="148" width="100" alt="AdditiveGaussianNoise"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/additivegaussiannoise_per_channel_true.gif" height="148" width="100" alt="AdditiveGaussianNoise per_channel=True"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/multiply.gif" height="148" width="100" alt="Multiply"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/arithmetic.html#cutout">Cutout</a></sub></td>
@@ -249,11 +249,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/arithmetic.html#dropout2d">Dropout2d</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/cutout.gif" height="148" width="100" alt="Cutout"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/dropout.gif" height="148" width="100" alt="Dropout"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsedropout_p_0_2.gif" height="148" width="100" alt="CoarseDropout p=0.2"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsedropout_p_0_2_per_channel_true.gif" height="148" width="100" alt="CoarseDropout p=0.2, per_channel=True"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/dropout2d.gif" height="148" width="100" alt="Dropout2d"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/cutout.gif" height="148" width="100" alt="Cutout"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/dropout.gif" height="148" width="100" alt="Dropout"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsedropout_p_0_2.gif" height="148" width="100" alt="CoarseDropout p=0.2"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsedropout_p_0_2_per_channel_true.gif" height="148" width="100" alt="CoarseDropout p=0.2, per_channel=True"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/dropout2d.gif" height="148" width="100" alt="Dropout2d"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/arithmetic.html#saltandpepper">SaltAndPepper</a></sub></td>
@@ -263,11 +263,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/arithmetic.html#jpegcompression">JpegCompression</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/saltandpepper.gif" height="148" width="100" alt="SaltAndPepper"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsesaltandpepper_p_0_2.gif" height="148" width="100" alt="CoarseSaltAndPepper p=0.2"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/invert.gif" height="148" width="100" alt="Invert"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/solarize.gif" height="148" width="100" alt="Solarize"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/jpegcompression.gif" height="148" width="100" alt="JpegCompression"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/saltandpepper.gif" height="148" width="100" alt="SaltAndPepper"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/coarsesaltandpepper_p_0_2.gif" height="148" width="100" alt="CoarseSaltAndPepper p=0.2"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/invert.gif" height="148" width="100" alt="Invert"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/solarize.gif" height="148" width="100" alt="Solarize"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/arithmetic/jpegcompression.gif" height="148" width="100" alt="JpegCompression"></td>
 </tr>
 <tr>
 
@@ -284,7 +284,7 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/artistic/cartoon.gif" height="144" width="128" alt="Cartoon"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/artistic/cartoon.gif" height="144" width="128" alt="Cartoon"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -299,11 +299,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/blend.html#blendalpharegulargrid">BlendAlphaRegularGrid</a><br/>with Multiply((0.0, 0.5))</sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalpha_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlpha with EdgeDetect1.0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphasimplexnoise_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlphaSimplexNoise with EdgeDetect1.0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphafrequencynoise_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlphaFrequencyNoise with EdgeDetect1.0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphasomecolors_with_removesaturation_1_0.gif" height="144" width="128" alt="BlendAlphaSomeColors with RemoveSaturation1.0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalpharegulargrid_with_multiply_0_0_0_5.gif" height="148" width="100" alt="BlendAlphaRegularGrid with Multiply0.0, 0.5"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalpha_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlpha with EdgeDetect1.0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphasimplexnoise_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlphaSimplexNoise with EdgeDetect1.0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphafrequencynoise_with_edgedetect_1_0.gif" height="148" width="100" alt="BlendAlphaFrequencyNoise with EdgeDetect1.0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalphasomecolors_with_removesaturation_1_0.gif" height="144" width="128" alt="BlendAlphaSomeColors with RemoveSaturation1.0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blend/blendalpharegulargrid_with_multiply_0_0_0_5.gif" height="148" width="100" alt="BlendAlphaRegularGrid with Multiply0.0, 0.5"></td>
 </tr>
 <tr>
 
@@ -320,11 +320,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/blur.html#motionblur">MotionBlur</a><br/>(angle=0)</sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/gaussianblur.gif" height="148" width="100" alt="GaussianBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/averageblur.gif" height="148" width="100" alt="AverageBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/medianblur.gif" height="148" width="100" alt="MedianBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/bilateralblur_sigma_color_250_sigma_space_250.gif" height="148" width="100" alt="BilateralBlur sigma_color=250, sigma_space=250"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/motionblur_angle_0.gif" height="148" width="100" alt="MotionBlur angle=0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/gaussianblur.gif" height="148" width="100" alt="GaussianBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/averageblur.gif" height="148" width="100" alt="AverageBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/medianblur.gif" height="148" width="100" alt="MedianBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/bilateralblur_sigma_color_250_sigma_space_250.gif" height="148" width="100" alt="BilateralBlur sigma_color=250, sigma_space=250"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/motionblur_angle_0.gif" height="148" width="100" alt="MotionBlur angle=0"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/blur.html#motionblur">MotionBlur</a><br/>(k=5)</sub></td>
@@ -334,8 +334,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/motionblur_k_5.gif" height="148" width="100" alt="MotionBlur k=5"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/blur/meanshiftblur.gif" height="148" width="100" alt="MeanShiftBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/motionblur_k_5.gif" height="148" width="100" alt="MotionBlur k=5"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/blur/meanshiftblur.gif" height="148" width="100" alt="MeanShiftBlur"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -349,7 +349,7 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/collections/randaugment.gif" height="148" width="100" alt="RandAugment"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/collections/randaugment.gif" height="148" width="100" alt="RandAugment"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -364,11 +364,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/color.html#addtohueandsaturation">AddToHueAndSaturation</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyandaddtobrightness.gif" height="148" width="100" alt="MultiplyAndAddToBrightness"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyhueandsaturation.gif" height="148" width="100" alt="MultiplyHueAndSaturation"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyhue.gif" height="148" width="100" alt="MultiplyHue"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/multiplysaturation.gif" height="148" width="100" alt="MultiplySaturation"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/addtohueandsaturation.gif" height="148" width="100" alt="AddToHueAndSaturation"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyandaddtobrightness.gif" height="148" width="100" alt="MultiplyAndAddToBrightness"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyhueandsaturation.gif" height="148" width="100" alt="MultiplyHueAndSaturation"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/multiplyhue.gif" height="148" width="100" alt="MultiplyHue"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/multiplysaturation.gif" height="148" width="100" alt="MultiplySaturation"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/addtohueandsaturation.gif" height="148" width="100" alt="AddToHueAndSaturation"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/color.html#grayscale">Grayscale</a></sub></td>
@@ -378,11 +378,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/color.html#uniformcolorquantization">UniformColorQuantization</a><br/>(to_colorspace=RGB)</sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/grayscale.gif" height="148" width="100" alt="Grayscale"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/removesaturation.gif" height="148" width="100" alt="RemoveSaturation"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/changecolortemperature.gif" height="148" width="100" alt="ChangeColorTemperature"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/kmeanscolorquantization_to_colorspace_rgb.gif" height="148" width="100" alt="KMeansColorQuantization to_colorspace=RGB"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/color/uniformcolorquantization_to_colorspace_rgb.gif" height="148" width="100" alt="UniformColorQuantization to_colorspace=RGB"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/grayscale.gif" height="148" width="100" alt="Grayscale"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/removesaturation.gif" height="148" width="100" alt="RemoveSaturation"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/changecolortemperature.gif" height="148" width="100" alt="ChangeColorTemperature"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/kmeanscolorquantization_to_colorspace_rgb.gif" height="148" width="100" alt="KMeansColorQuantization to_colorspace=RGB"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/color/uniformcolorquantization_to_colorspace_rgb.gif" height="148" width="100" alt="UniformColorQuantization to_colorspace=RGB"></td>
 </tr>
 <tr>
 
@@ -399,11 +399,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/contrast.html#logcontrast">LogContrast</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/gammacontrast.gif" height="148" width="100" alt="GammaContrast"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/gammacontrast_per_channel_true.gif" height="148" width="100" alt="GammaContrast per_channel=True"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/sigmoidcontrast_cutoff_0_5.gif" height="148" width="100" alt="SigmoidContrast cutoff=0.5"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/sigmoidcontrast_gain_10.gif" height="148" width="100" alt="SigmoidContrast gain=10"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/logcontrast.gif" height="148" width="100" alt="LogContrast"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/gammacontrast.gif" height="148" width="100" alt="GammaContrast"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/gammacontrast_per_channel_true.gif" height="148" width="100" alt="GammaContrast per_channel=True"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/sigmoidcontrast_cutoff_0_5.gif" height="148" width="100" alt="SigmoidContrast cutoff=0.5"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/sigmoidcontrast_gain_10.gif" height="148" width="100" alt="SigmoidContrast gain=10"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/logcontrast.gif" height="148" width="100" alt="LogContrast"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/contrast.html#linearcontrast">LinearContrast</a></sub></td>
@@ -413,11 +413,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/contrast.html#clahe">CLAHE</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/linearcontrast.gif" height="148" width="100" alt="LinearContrast"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/allchannels_histogramequalization.gif" height="148" width="100" alt="AllChannels- HistogramEqualization"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/histogramequalization.gif" height="148" width="100" alt="HistogramEqualization"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/allchannelsclahe.gif" height="148" width="100" alt="AllChannelsCLAHE"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/contrast/clahe.gif" height="148" width="100" alt="CLAHE"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/linearcontrast.gif" height="148" width="100" alt="LinearContrast"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/allchannels_histogramequalization.gif" height="148" width="100" alt="AllChannels- HistogramEqualization"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/histogramequalization.gif" height="148" width="100" alt="HistogramEqualization"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/allchannelsclahe.gif" height="148" width="100" alt="AllChannelsCLAHE"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/contrast/clahe.gif" height="148" width="100" alt="CLAHE"></td>
 </tr>
 <tr>
 
@@ -434,10 +434,10 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/convolutional/sharpen_alpha_1.gif" height="148" width="100" alt="Sharpen alpha=1"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/convolutional/emboss_alpha_1.gif" height="148" width="100" alt="Emboss alpha=1"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/convolutional/edgedetect.gif" height="148" width="100" alt="EdgeDetect"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/convolutional/directededgedetect_alpha_1.gif" height="148" width="100" alt="DirectedEdgeDetect alpha=1"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/convolutional/sharpen_alpha_1.gif" height="148" width="100" alt="Sharpen alpha=1"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/convolutional/emboss_alpha_1.gif" height="148" width="100" alt="Emboss alpha=1"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/convolutional/edgedetect.gif" height="148" width="100" alt="EdgeDetect"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/convolutional/directededgedetect_alpha_1.gif" height="148" width="100" alt="DirectedEdgeDetect alpha=1"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -460,7 +460,7 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/edges/canny.gif" height="148" width="100" alt="Canny"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/edges/canny.gif" height="148" width="100" alt="Canny"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -473,8 +473,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/flip/fliplr.gif" height="148" width="300" alt="Fliplr"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/flip/flipud.gif" height="148" width="300" alt="Flipud"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/flip/fliplr.gif" height="148" width="300" alt="Fliplr"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/flip/flipud.gif" height="148" width="300" alt="Flipud"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -490,8 +490,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine.gif" height="148" width="300" alt="Affine"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine_modes.gif" height="148" width="300" alt="Affine: Modes"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine.gif" height="148" width="300" alt="Affine"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine_modes.gif" height="148" width="300" alt="Affine: Modes"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -500,8 +500,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine_cval.gif" height="148" width="300" alt="Affine: cval"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/piecewiseaffine.gif" height="148" width="300" alt="PiecewiseAffine"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/affine_cval.gif" height="148" width="300" alt="Affine: cval"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/piecewiseaffine.gif" height="148" width="300" alt="PiecewiseAffine"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -510,8 +510,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/perspectivetransform.gif" height="148" width="300" alt="PerspectiveTransform"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/elastictransformation_sigma_1_0.gif" height="148" width="300" alt="ElasticTransformation sigma=1.0"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/perspectivetransform.gif" height="148" width="300" alt="PerspectiveTransform"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/elastictransformation_sigma_1_0.gif" height="148" width="300" alt="ElasticTransformation sigma=1.0"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -520,8 +520,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/elastictransformation_sigma_4_0.gif" height="148" width="300" alt="ElasticTransformation sigma=4.0"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/rot90.gif" height="148" width="300" alt="Rot90"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/elastictransformation_sigma_4_0.gif" height="148" width="300" alt="ElasticTransformation sigma=4.0"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/rot90.gif" height="148" width="300" alt="Rot90"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -530,8 +530,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/withpolarwarping_affine.gif" height="148" width="300" alt="WithPolarWarping +Affine"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/geometric/jigsaw_5x5_grid.gif" height="148" width="300" alt="Jigsaw 5x5 grid"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/withpolarwarping_affine.gif" height="148" width="300" alt="WithPolarWarping +Affine"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/geometric/jigsaw_5x5_grid.gif" height="148" width="300" alt="Jigsaw 5x5 grid"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -549,11 +549,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/imgcorruptlike.html#spatter">Spatter</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/glassblur.gif" height="148" width="100" alt="GlassBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/defocusblur.gif" height="148" width="100" alt="DefocusBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/zoomblur.gif" height="148" width="100" alt="ZoomBlur"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/snow.gif" height="148" width="100" alt="Snow"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/spatter.gif" height="148" width="100" alt="Spatter"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/glassblur.gif" height="148" width="100" alt="GlassBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/defocusblur.gif" height="148" width="100" alt="DefocusBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/zoomblur.gif" height="148" width="100" alt="ZoomBlur"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/snow.gif" height="148" width="100" alt="Snow"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/imgcorruptlike/spatter.gif" height="148" width="100" alt="Spatter"></td>
 </tr>
 <tr>
 
@@ -570,11 +570,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/pillike.html#filtercontour">FilterContour</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pillike/autocontrast.gif" height="148" width="100" alt="Autocontrast"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pillike/enhancecolor.gif" height="148" width="100" alt="EnhanceColor"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pillike/enhancesharpness.gif" height="148" width="100" alt="EnhanceSharpness"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pillike/filteredgeenhancemore.gif" height="148" width="100" alt="FilterEdgeEnhanceMore"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pillike/filtercontour.gif" height="148" width="100" alt="FilterContour"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pillike/autocontrast.gif" height="148" width="100" alt="Autocontrast"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pillike/enhancecolor.gif" height="148" width="100" alt="EnhanceColor"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pillike/enhancesharpness.gif" height="148" width="100" alt="EnhanceSharpness"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pillike/filteredgeenhancemore.gif" height="148" width="100" alt="FilterEdgeEnhanceMore"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pillike/filtercontour.gif" height="148" width="100" alt="FilterContour"></td>
 </tr>
 <tr>
 
@@ -591,10 +591,10 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pooling/averagepooling.gif" height="148" width="100" alt="AveragePooling"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pooling/maxpooling.gif" height="148" width="100" alt="MaxPooling"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pooling/minpooling.gif" height="148" width="100" alt="MinPooling"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/pooling/medianpooling.gif" height="148" width="100" alt="MedianPooling"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pooling/averagepooling.gif" height="148" width="100" alt="AveragePooling"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pooling/maxpooling.gif" height="148" width="100" alt="MaxPooling"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pooling/minpooling.gif" height="148" width="100" alt="MinPooling"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/pooling/medianpooling.gif" height="148" width="100" alt="MedianPooling"></td>
 <td>&nbsp;</td>
 </tr>
 <tr><td colspan="5"><strong>segmentation</strong></td></tr>
@@ -606,11 +606,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/segmentation.html#regulargridvoronoi">RegularGridVoronoi: p_drop_points</a><br/>(n_rows=n_cols=30)</sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/superpixels_p_replace_1.gif" height="148" width="100" alt="Superpixels p_replace=1"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/superpixels_n_segments_100.gif" height="148" width="100" alt="Superpixels n_segments=100"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/uniformvoronoi.gif" height="148" width="100" alt="UniformVoronoi"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_rows_cols_p_drop_points_0.gif" height="148" width="100" alt="RegularGridVoronoi: rows/cols p_drop_points=0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_p_drop_points_n_rows_n_cols_30.gif" height="148" width="100" alt="RegularGridVoronoi: p_drop_points n_rows=n_cols=30"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/superpixels_p_replace_1.gif" height="148" width="100" alt="Superpixels p_replace=1"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/superpixels_n_segments_100.gif" height="148" width="100" alt="Superpixels n_segments=100"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/uniformvoronoi.gif" height="148" width="100" alt="UniformVoronoi"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_rows_cols_p_drop_points_0.gif" height="148" width="100" alt="RegularGridVoronoi: rows/cols p_drop_points=0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_p_drop_points_n_rows_n_cols_30.gif" height="148" width="100" alt="RegularGridVoronoi: p_drop_points n_rows=n_cols=30"></td>
 </tr>
 <tr>
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/segmentation.html#regulargridvoronoi">RegularGridVoronoi: p_replace</a><br/>(n_rows=n_cols=16)</sub></td>
@@ -620,7 +620,7 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_p_replace_n_rows_n_cols_16.gif" height="148" width="100" alt="RegularGridVoronoi: p_replace n_rows=n_cols=16"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/segmentation/regulargridvoronoi_p_replace_n_rows_n_cols_16.gif" height="148" width="100" alt="RegularGridVoronoi: p_replace n_rows=n_cols=16"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -639,8 +639,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/size/cropandpad.gif" height="148" width="300" alt="CropAndPad"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/size/crop.gif" height="148" width="300" alt="Crop"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/size/cropandpad.gif" height="148" width="300" alt="CropAndPad"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/size/crop.gif" height="148" width="300" alt="Crop"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -649,8 +649,8 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/size/pad.gif" height="148" width="300" alt="Pad"></td>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/size/padtofixedsize_height_height_32_width_width_32.gif" height="148" width="300" alt="PadToFixedSize height'=height+32, width'=width+32"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/size/pad.gif" height="148" width="300" alt="Pad"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/size/padtofixedsize_height_height_32_width_width_32.gif" height="148" width="300" alt="PadToFixedSize height'=height+32, width'=width+32"></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -660,7 +660,7 @@ visualized here.
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/size/croptofixedsize_height_height_32_width_width_32.gif" height="148" width="300" alt="CropToFixedSize height'=height-32, width'=width-32"></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/size/croptofixedsize_height_height_32_width_width_32.gif" height="148" width="300" alt="CropToFixedSize height'=height-32, width'=width-32"></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -680,11 +680,11 @@ visualized here.
 <td colspan="1"><sub><a href="https://imgaug.readthedocs.io/en/latest/source/overview/weather.html#rain">Rain</a></sub></td>
 </tr>
 <tr>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/weather/fastsnowylandscape_lightness_multiplier_2_0.gif" height="144" width="128" alt="FastSnowyLandscape lightness_multiplier=2.0"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/weather/clouds.gif" height="144" width="128" alt="Clouds"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/weather/fog.gif" height="144" width="128" alt="Fog"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/weather/snowflakes.gif" height="144" width="128" alt="Snowflakes"></td>
-<td colspan="1"><img src="https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/augmenter_videos/weather/rain.gif" height="144" width="128" alt="Rain"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/weather/fastsnowylandscape_lightness_multiplier_2_0.gif" height="144" width="128" alt="FastSnowyLandscape lightness_multiplier=2.0"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/weather/clouds.gif" height="144" width="128" alt="Clouds"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/weather/fog.gif" height="144" width="128" alt="Fog"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/weather/snowflakes.gif" height="144" width="128" alt="Snowflakes"></td>
+<td colspan="1"><img src="https://raw.githubusercontent.com/marcown/imgaug-doc/master/readme_images/augmenter_videos/weather/rain.gif" height="144" width="128" alt="Rain"></td>
 </tr>
 <tr>
 
@@ -1120,7 +1120,7 @@ for images_aug in augseq.augment_batches(batches, background=True):
 If you need more control over the background augmentation, e.g. to set
 seeds, control the number of used CPU cores or constraint the memory usage,
 see the corresponding
-[multicore augmentation notebook](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A03%20-%20Multicore%20Augmentation.ipynb)
+[multicore augmentation notebook](https://nbviewer.jupyter.org/github/marcown/imgaug-doc/blob/master/notebooks/A03%20-%20Multicore%20Augmentation.ipynb)
 or the API about
 [Augmenter.pool()](https://imgaug.readthedocs.io/en/latest/source/api_augmenters_meta.html#imgaug.augmenters.meta.Augmenter.pool)
 and
@@ -1189,7 +1189,7 @@ Note: the table only lists people who have their real names (publicly)
 set in their github
 
 List of username-realname matching based on
-https://github.com/aleju/imgaug/graphs/contributors ordered by commits:
+https://github.com/marcown/imgaug/graphs/contributors ordered by commits:
 
 wkentaro            Wada, Kentaro
 Erotemic            Crall, Jon
@@ -1244,7 +1244,7 @@ If this library has helped you during your research, feel free to cite it:
             and Laporte, Matias
             and others},
   title = {{imgaug}},
-  howpublished = {\url{https://github.com/aleju/imgaug}},
+  howpublished = {\url{https://github.com/marcown/imgaug}},
   year = {2020},
   note = {Online; accessed 01-Feb-2020}
 }
