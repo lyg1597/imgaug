@@ -1,6 +1,8 @@
 """Classes to represent keypoints, i.e. points given as xy-coordinates."""
 from __future__ import print_function, division, absolute_import
 
+import copy
+
 import numpy as np
 import scipy.spatial.distance
 import six.moves as sm
@@ -82,11 +84,15 @@ class Keypoint(object):
     y : number
         Coordinate of the keypoint on the y axis.
 
+    label : None or str, optional
+        Label of the bounding box, e.g. a string representing the class.
+
     """
 
-    def __init__(self, x, y):
+    def __init__(self, x, y, label):
         self.x = x
         self.y = y
+        self.label = label
 
     @property
     def coords(self):
@@ -557,7 +563,7 @@ class Keypoint(object):
         """
         return self.coords_almost_equals(other, max_distance=max_distance)
 
-    def copy(self, x=None, y=None):
+    def copy(self, x=None, y=None, label=None):
         """Create a shallow copy of the keypoint instance.
 
         Parameters
@@ -570,15 +576,19 @@ class Keypoint(object):
             Coordinate of the keypoint on the y axis.
             If ``None``, the instance's value will be copied.
 
+        label : None or string
+            If not ``None``, then the ``label`` of the copied object
+            will be set to this value.
+
         Returns
         -------
         imgaug.augmentables.kps.Keypoint
             Shallow copy.
 
         """
-        return self.deepcopy(x=x, y=y)
+        return self.deepcopy(x=x, y=y, label=label)
 
-    def deepcopy(self, x=None, y=None):
+    def deepcopy(self, x=None, y=None, label=None):
         """Create a deep copy of the keypoint instance.
 
         Parameters
@@ -590,7 +600,11 @@ class Keypoint(object):
         y : None or number, optional
             Coordinate of the keypoint on the y axis.
             If ``None``, the instance's value will be copied.
-
+        
+        label : None or string
+            If not ``None``, then the ``label`` of the copied object
+            will be set to this value.
+            
         Returns
         -------
         imgaug.augmentables.kps.Keypoint
@@ -599,13 +613,14 @@ class Keypoint(object):
         """
         x = self.x if x is None else x
         y = self.y if y is None else y
-        return Keypoint(x=x, y=y)
+        label=copy.deepcopy(self.label) if label is None else label
+        return Keypoint(x=x, y=y, label=label)
 
     def __repr__(self):
         return self.__str__()
 
     def __str__(self):
-        return "Keypoint(x=%.8f, y=%.8f)" % (self.x, self.y)
+        return "Keypoint(x=%.8f, y=%.8f, label=%s)" % (self.x, self.y, self.label)
 
 
 class KeypointsOnImage(IAugmentable):
