@@ -89,7 +89,7 @@ class Keypoint(object):
 
     """
 
-    def __init__(self, x, y, label):
+    def __init__(self, x, y, label=None):
         self.x = x
         self.y = y
         self.label = label
