@@ -1420,10 +1420,11 @@ class Rain(meta.SomeOf):
     def __init__(self, nb_iterations=(1, 3),
                  drop_size=(0.01, 0.02),
                  speed=(0.04, 0.20),
+                 density=(0.03, 0.14),
                  seed=None, name=None,
                  random_state="deprecated", deterministic="deprecated"):
         layer = RainLayer(
-            density=(0.03, 0.14),
+            density=density,
             density_uniformity=(0.8, 1.0),
             drop_size=drop_size,
             drop_size_uniformity=(0.2, 0.5),
