@@ -677,17 +677,19 @@ class Fog(CloudLayer):
 
     """
 
-    def __init__(self, 
-                 seed=None, name=None, intensity_mean=(200, 200), 
-                 intensity_freq_exponent = (-0.2, -0.2),
-                 intensity_coarse_scale=2,
-                 alpha_min=(0.8, 0.8),
-                 alpha_multiplier=0.3,
-                 alpha_size_px_max=(3, 3),
-                 alpha_freq_exponent=(-3.0, -3.0),
-                 sparsity=0.9,
-                 density_multiplier=(0.7, 0.7),
-                 random_state="deprecated", deterministic="deprecated"):
+    def __init__(
+        self, 
+        seed=None, name=None, intensity_mean=(220, 255),
+        intensity_freq_exponent=(-2.0, -1.5),
+        intensity_coarse_scale=2,
+        alpha_min=(0.7, 0.9),
+        alpha_multiplier=0.3,
+        alpha_size_px_max=(2, 8),
+        alpha_freq_exponent=(-4.0, -2.0),
+        sparsity=0.9,
+        density_multiplier=(0.4, 0.9),
+        random_state="deprecated", deterministic="deprecated"
+    ):
         super(Fog, self).__init__(
             intensity_mean=intensity_mean,
             intensity_freq_exponent=intensity_freq_exponent,
